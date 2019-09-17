@@ -37,7 +37,7 @@ requirements:
     - rb-jekyll-readme-index =0.2.0
     - rb-jekyll-redirect-from =0.14.0
     - rb-jekyll-relative-links =0.6.0
-    - rb-jekyll-remote-theme =0.3.1
+    - rb-jekyll-remote-theme =0.4.0
     - rb-jekyll-sass-converter =1.5.2
     - rb-jekyll-seo-tag =2.5.0
     - rb-jekyll-sitemap =1.2.0
@@ -62,7 +62,7 @@ requirements:
     - rb-listen =3.1.5
     - rb-mercenary >=0.3,<1
     - rb-minima =2.5.0
-    - rb-nokogiri >=1.8.5,<2.0
+    - rb-nokogiri >=1.10.4,<2.0
     - rb-rouge =2.2.1
     - rb-terminal-table >=1.4,<2
 
