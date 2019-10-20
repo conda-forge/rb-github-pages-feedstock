@@ -1,5 +1,5 @@
 {% set name = "github-pages" %}
-{% set version = "200" %}
+{% set version = "201" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 1543538ca2e8a327c5c1d11d7cf5f9dcd25d941283714babfa6bef5d1b47f180
+  sha256: 19b95c77c8f96fe66864c791175490c6d638cb862af1e86d52b0eb9566d1ad4b
 
 build:
   noarch: generic
@@ -26,7 +26,7 @@ requirements:
     - rb-jekyll =3.8.5
     - rb-jekyll-avatar =0.6.0
     - rb-jekyll-coffeescript =1.1.1
-    - rb-jekyll-commonmark-ghpages =0.1.5
+    - rb-jekyll-commonmark-ghpages =0.1.6
     - rb-jekyll-default-layout =0.1.4
     - rb-jekyll-feed =0.11.0
     - rb-jekyll-gist =1.5.0
@@ -63,7 +63,7 @@ requirements:
     - rb-mercenary >=0.3,<1
     - rb-minima =2.5.0
     - rb-nokogiri >=1.10.4,<2.0
-    - rb-rouge =2.2.1
+    - rb-rouge =3.11.0
     - rb-terminal-table >=1.4,<2
 
 test:
