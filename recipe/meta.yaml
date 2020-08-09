@@ -1,5 +1,5 @@
 {% set name = "github-pages" %}
-{% set version = "201" %}
+{% set version = "204" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 19b95c77c8f96fe66864c791175490c6d638cb862af1e86d52b0eb9566d1ad4b
+  sha256: 0fe22323543490edd1a0c8c688bbaf84c261925a05d500a9a21901ca8b2b336b
 
 build:
   noarch: generic
